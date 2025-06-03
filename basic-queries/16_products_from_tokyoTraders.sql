@@ -3,6 +3,6 @@
 SELECT
       *
 FROM
-    products
+    productsSalary
 WHERE
     SupplierID = 4 ;
