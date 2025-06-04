@@ -1,5 +1,5 @@
 -- question 2
 SELECT
-    SUM(Salary)
+    SUM(Salary) AS total_salary
 FROM
    employees;
