@@ -1,5 +1,5 @@
 -- question 3
 SELECT
-   MIN(UnitPrice)
+   MIN(UnitPrice) AS cheapest_item
 FROM
    products;

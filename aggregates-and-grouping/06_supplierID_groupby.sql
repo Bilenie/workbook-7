@@ -5,4 +5,4 @@ SELECT
 FROM
   Products
 GROUP BY
-  SupplierID;
+  SupplierID; -- give me this section only and remove the duplicate and group them.

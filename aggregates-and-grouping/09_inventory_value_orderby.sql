@@ -4,6 +4,6 @@ SELECT
 FROM
   Products
 ORDER BY
-       ProductName ASC , Inventory_Value DESC;
+     Inventory_Value DESC ,  ProductName ASC ;
  -- filter a result of group by then order by happen select,from,where,groupby,having,orderby
 
