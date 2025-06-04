@@ -1,6 +1,6 @@
 -- question 2
 SELECT
-    OrderID,ShipName,ShipAddress
+    OrderID,ShipName,ShipAddress,ShipVia
 FROM 
    orders
 WHERE 
