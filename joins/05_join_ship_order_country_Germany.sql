@@ -5,7 +5,6 @@ SELECT
 	O.ShipAddress, 
 	S.CompanyName AS ShippingCompany,
     O.ShipCountry
-
  FROM
 	orders O
  JOIN 
