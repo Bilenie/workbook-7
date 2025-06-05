@@ -1,13 +1,14 @@
 -- question 2
 SELECT
- P.ProductID,
- P.ProductName,
- P.UnitPrice,
- S.CompanyName
- 
+	 P.ProductID,
+	 P.ProductName,
+	 P.UnitPrice,
+	 S.CompanyName AS Supplier_Name
  FROM
- products p 
+	products p 
  JOIN 
- suppliers S ON (S.SupplierID =  P.SupplierID)
+	suppliers S ON (S.SupplierID =  P.SupplierID)
  WHERE
- UnitPrice > 75;
+	UnitPrice > 75
+ ORDER BY
+	P.ProductName;

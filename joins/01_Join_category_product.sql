@@ -9,4 +9,6 @@ SELECT
     products p 
  JOIN 
     categories C
- ON ( C.CategoryID = P.CategoryID );
+ ON ( C.CategoryID = P.CategoryID )
+ ORDER BY
+   C.CategoryName, P.ProductName;
