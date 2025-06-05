@@ -7,6 +7,8 @@ SELECT
 FROM
    products P
 LEFT JOIN
-   suppliers S ON ( P.SupplierID =  S.SupplierID );
+   suppliers S ON ( P.SupplierID =  S.SupplierID )
+WHERE
+   S.SupplierID = 30;
 
    
